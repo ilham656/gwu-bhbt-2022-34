@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Doe | Full Stack Developer Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Raleway:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💻</text></svg>">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen">
+        <div class="loader">
+            <div class="loader-circle"></div>
+            <div class="loader-text">Loading Portfolio...</div>
+        </div>
+    </div>
+
+    <!-- Theme Toggle Button -->
+    <button class="theme-toggle" aria-label="Toggle theme">
+        <i class="fas fa-moon"></i>
+        <i class="fas fa-sun"></i>
+    </button>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" aria-label="Scroll to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container">
+            <nav>
+                <a href="#home" class="logo"> ilham <span>mohamed</span></a>
+                
+                <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+                
+                <ul class="nav-links">
+                    <li><a href="#home" class="active"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+                    <li><a href="#skills"><i class="fas fa-code"></i> Skills</a></li>
+                    <li><a href="#education"><i class="fas fa-graduation-cap"></i> Education</a></li>
+                    <li><a href="#projects"><i class="fas fa-briefcase"></i> Projects</a></li>
+                    <li><a href="#experience"><i class="fas fa-briefcase"></i> Experience</a></li>
+                   
+                    <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h4 class="hero-subtitle">Hello, I'm</h4>
+                   <h1 class="hero-name">Ilham <span class="highlight">Mohamed </span></h1>
+                    <h2 class="hero-role">Biomedical Technologist</h2>
+                    <p class="hero-description">
+                        I solve many biomedical device's problems perfectly and i have functional medical devices experiences. With 5+ years of expertise in biomedical technologies, 
+                    
+                    </p>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <span class="stat-number" data-count="50">0</span>
+                            <span class="stat-label">Projects</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number" data-count="25">0</span>
+                            <span class="stat-label">Clients</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number" data-count="5">0</span>
+                            <span class="stat-label">Years</span>
+                        </div>
+                    </div>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i> Hire Me
+                        </a>
+                        <a href="#projects" class="btn btn-secondary">
+                            <i class="fas fa-code"></i> View Projects
+                        </a>
+                        <a href="./John_Doe_CV.pdf" class="btn btn-outline" download>
+                            <i class="fas fa-download"></i> Download CV
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-wrapper">
+                        <img src="./img/my profile .jpg" alt="John Doe" class="profile-img">
+                        <div class="image-badge">
+                            <i class="fas fa-code"></i>
+                            <span>Available for Work</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About <span class="highlight">Me</span></h2>
+            <p class="section-subtitle">Get to know me better</p>
+            
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-container">
+                        <img src="./WhatsApp Image 2026-01-01 at 12.38.22 PM.jpeg" alt="About John Doe">
+                        <div class="experience-badge">
+                            <span class="years">5+</span>
+                            <span class="text">Years Experience</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-details">
+                    <h3>Biomedical Technologist</h3>
+                  <p>
+I'm a passionate developer and aspiring biomedical technologist with expertise in creating
+innovative digital solutions and healthcare-focused applications. I specialize in
+developing web and mobile platforms, hospital and laboratory management systems,
+and biomedical instrument tracking software. I combine my IT skills with biomedical
+knowledge to deliver efficient, secure, and user-friendly applications that enhance
+clinical workflows and healthcare services. Continuously learning and exploring the
+intersection of technology and healthcare, I aim to contribute to smarter, safer, and
+more connected medical environments.
+</p>
+
+                    <div class="about-info">
+                        <div class="info-item">
+                            <i class="fas fa-user"></i>
+                            <div>
+                                <span class="label">Name:</span>
+                                <span class="value">ilham mohamed</span>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <span class="label">Email:</span>
+                                <span class="value">ilhammohamed656@gmail.com</span>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <span class="label">Location:</span>
+                                <span class="value">Kinniya Trincomalee Sri lanka</span>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-briefcase"></i>
+                            <div>
+                                <span class="label">Status:</span>
+                                <span class="value">Available for Freelance</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <p class="about-description">
+                        I specialize in building responsive web applications using modern technologies. My approach combines 
+                        technical expertise with creative design thinking to deliver solutions that are both beautiful and functional.
+                    </p>
+                    
+                    <div class="about-features">
+                        <div class="feature">
+                            <i class="fas fa-bolt"></i>
+                            <h4>Fast Development</h4>
+                            <p>Clean code and efficient workflows</p>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-mobile-alt"></i>
+                            <h4>Responsive Design</h4>
+                            <p>Perfect on all devices</p>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-headset"></i>
+                            <h4>Support</h4>
+                            <p>24/7 availability</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills-section">
+        <div class="container">
+            <h2 class="section-title">My <span class="highlight">Skills</span></h2>
+            <p class="section-subtitle">Technologies I work with</p>
+            
+            <div class="skills-tabs">
+                <button class="tab-btn active" data-tab="frontend">Frontend</button>
+                <button class="tab-btn" data-tab="backend">Backend</button>
+                <button class="tab-btn" data-tab="tools">Tools</button>
+            </div>
+            
+            <div class="skills-content">
+                <div class="tab-content active" id="tools">
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fab fa-html5"></i>
+                            </div>
+                            <h4>HTML5</h4>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-width="95">
+                                    <span class="progress-text">95%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fab fa-css3-alt"></i>
+                            </div>
+                            <h4>CSS3</h4>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-width="90">
+                                    <span class="progress-text">90%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fab fa-js"></i>
+                            </div>
+                            <h4>JavaScript</h4>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-width="92">
+                                    <span class="progress-text">92%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fab fa-react"></i>
+                            </div>
+                            <h4>React</h4>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-width="88">
+                                    <span class="progress-text">88%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tab-content" id="frontend">
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fab fa-node-js"></i>
+                            </div>
+                            <h4>Computer hardware technologies </h4>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-width="85">
+                                    <span class="progress-text">85%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fab fa-python"></i>
+                            </div>
+                            <h4>Autocad 2D engineering</h4>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-width="80">
+                                    <span class="progress-text">90%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <h4>Data communication and nerworking</h4>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-width="82">
+                                    <span class="progress-text">82%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fas fa-server"></i>
+                            </div>
+                            <h4>matlab</h4>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-width="78">
+                                    <span class="progress-text">88%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tab-content" id="backend">
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fab fa-git-alt"></i>
+                            </div>
+                            <h4>medical instrumentation</h4>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-width="90">
+                                    <span class="progress-text">90%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fas fa-cube"></i>
+                            </div>
+                            <h4>Digital electronics</h4>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-width="75">
+                                    <span class="progress-text">75%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fab fa-figma"></i>
+                            </div>
+                            <h4>laboratory sciences</h4>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-width="70">
+                                    <span class="progress-text">80%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fas fa-cloud"></i>
+                            </div>
+                            <h4>Basic electronics</h4>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-width="72">
+                                    <span class="progress-text">72%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Education Section -->
+<section id="education" class="section education-section">
+    <div class="container">
+        <h2 class="section-title">My <span class="highlight">Education</span></h2>
+        <p class="section-subtitle">Academic background & certifications</p>
+
+        <div class="timeline">
+
+            <!-- O/L Completed -->
+            <div class="timeline-item">
+                <div class="timeline-date">2016</div>
+                <div class="timeline-content">
+                    <h3>O/L Completed</h3>
+                    <p class="institution">T/Kinniya Central College</p>
+                    <p>Good pass in all subjects.</p>
+                    <div class="tags">
+                        <span class="tag">Islam-A</span>
+                        <span class="tag">History-A</span>
+                        <span class="tag">Tamil Literature-A</span>
+                        <span class="tag">Health Science-A</span>
+                        <span class="tag">Math-B</span>
+                        <span class="tag">Tamil-B</span>
+                        <span class="tag">Geography-B</span>
+                        <span class="tag">Science-C</span>
+                        <span class="tag">English-C</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Biosystems Technology Stream -->
+            <div class="timeline-item">
+                <div class="timeline-date">2020 - 2022</div>
+                <div class="timeline-content">
+                    <h3>Biosystems Technology Stream</h3>
+                    <p class="institution">T/Kinniya Central College, Kinniya</p>
+                    <p>Good pass in all subjects.</p>
+                    <div class="tags">
+                        <span class="tag">Biosystems Technology-B</span>
+                        <span class="tag">Science for Technology-B</span>
+                        <span class="tag">Agricultural Science-C</span>
+                        <span class="tag">English-B</span>
+                        <span class="tag">General IT-S</span>
+                        <span class="tag">General Knowledge-42</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- NAITA – Computer Hardware Course -->
+            <div class="timeline-item">
+                <div class="timeline-date">2022</div>
+                <div class="timeline-content">
+                    <h3>Computer Hardware Course Completed</h3>
+                    <p class="institution">NAITA</p>
+                    <p>Completed practical and theoretical training on computer hardware, troubleshooting, and networking basics.</p>
+                    <div class="tags">
+                        <span class="tag">Computer Hardware</span>
+                        <span class="tag">Networking</span>
+                        <span class="tag">Troubleshooting</span>
+                        <span class="tag">Practical Training</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pathway Institute – Medical Laboratory Sciences -->
+            <div class="timeline-item">
+                <div class="timeline-date">2022 - 2023</div>
+                <div class="timeline-content">
+                    <h3>Medical Laboratory Sciences</h3>
+                    <p class="institution">Pathway Institute</p>
+                    <p>Completed training on laboratory techniques, clinical analysis, and biomedical equipment handling.</p>
+                    <div class="tags">
+                        <span class="tag">Medical Laboratory Sciences</span>
+                        <span class="tag">Laboratory Techniques</span>
+                        <span class="tag">Clinical Analysis</span>
+                        <span class="tag">Biomedical Equipment</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Undergraduate Biomedical Technology -->
+            <div class="timeline-item">
+                <div class="timeline-date">2023 - Present</div>
+                <div class="timeline-content">
+                    <h3>Undergraduate Student in Biomedical Technology</h3>
+                    <p class="institution">Gampaha Wickramarachchi University of Indigenous Medicine</p>
+                    <p>Completed 1.5 years of the course; currently continuing Biomedical Technology with a focus on Medical Laboratory Sciences.</p>
+                    <div class="tags">
+                        <span class="tag">Biomedical Technology</span>
+                        <span class="tag">Medical Laboratory Sciences</span>
+                        <span class="tag">Laboratory Techniques</span>
+                        <span class="tag">Clinical Analysis</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- Projects Section -->
+<section id="projects" class="section projects-section">
+    <div class="container">
+        <h2 class="section-title">Featured <span class="highlight">Projects</span></h2>
+        <p class="section-subtitle">Some of my recent work</p>
+
+        <!-- Filter Buttons -->
+        <div class="projects-filter">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="web">Web Apps</button>
+            <button class="filter-btn" data-filter="mobile">Mobile</button>
+            <button class="filter-btn" data-filter="design">UI/UX</button>
+            <button class="filter-btn" data-filter="biomedical">Biomedical</button>
+        </div>
+
+        <!-- Projects Grid -->
+        <div class="projects-grid">
+
+            <!-- Web Application -->
+            <div class="project-card" data-category="web">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?auto=format&fit=crop&w=1674&q=80" alt="E-Commerce Platform">
+                    <div class="project-overlay">
+                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <span class="project-category">Web Application</span>
+                    <h3>Modern E-Commerce Platform</h3>
+                    <p>Full-featured online store with authentication, product management, and secure payments.</p>
+                    <div class="project-tech">
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>MongoDB</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#"><i class="fab fa-github"></i> Code</a>
+                        <a href="#"><i class="fas fa-eye"></i> Live Demo</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mobile App -->
+            <div class="project-card" data-category="mobile">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1770&q=80" alt="Task Management App">
+                    <div class="project-overlay">
+                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <span class="project-category">Mobile App</span>
+                    <h3>Task Management App</h3>
+                    <p>Collaborative task management app with real-time updates and team tracking.</p>
+                    <div class="project-tech">
+                        <span>React Native</span>
+                        <span>Firebase</span>
+                        <span>Redux</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#"><i class="fab fa-github"></i> Code</a>
+                        <a href="#"><i class="fab fa-app-store"></i> App Store</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- UI / UX -->
+            <div class="project-card" data-category="design">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?auto=format&fit=crop&w=1664&q=80" alt="Design System">
+                    <div class="project-overlay">
+                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <span class="project-category">UI / UX Design</span>
+                    <h3>Design System Library</h3>
+                    <p>Reusable UI components, tokens, and documentation for scalable products.</p>
+                    <div class="project-tech">
+                        <span>Figma</span>
+                        <span>Storybook</span>
+                        <span>React</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#"><i class="fab fa-figma"></i> Figma</a>
+                        <a href="#"><i class="fas fa-eye"></i> Preview</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Biomedical Laboratory -->
+            <div class="project-card" data-category="biomedical">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&w=1600&q=80" alt="Biomedical Lab">
+                    <div class="project-overlay">
+                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <span class="project-category">Biomedical / Laboratory</span>
+                    <h3>Biomedical Laboratory Website</h3>
+                    <p>Online lab test booking, patient reports, diagnostic services & admin panel.</p>
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>PHP</span>
+                        <span>MySQL</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#"><i class="fab fa-github"></i> Code</a>
+                        <a href="#"><i class="fas fa-eye"></i> Live Demo</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Medical Instrument Management -->
+            <div class="project-card" data-category="biomedical">
+                <div class="project-image">
+                    <img src="https://tse4.mm.bing.net/th/id/OIP.XEmGA8RuWmQGU_BqxKlRzwHaDt?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Instrument Management">
+                    <div class="project-overlay">
+                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <span class="project-category">Biomedical / Instrument System</span>
+                    <h3>Medical Instrument Management System</h3>
+                    <p>Instrument inventory, calibration schedules, maintenance alerts & usage logs.</p>
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>PHP</span>
+                        <span>MySQL</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#"><i class="fab fa-github"></i> Code</a>
+                        <a href="#"><i class="fas fa-eye"></i> Live Demo</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hospital Management -->
+            <div class="project-card" data-category="biomedical">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=1600&q=80" alt="Hospital System">
+                    <div class="project-overlay">
+                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <span class="project-category">Biomedical / Hospital System</span>
+                    <h3>Hospital & Diagnostic Management System</h3>
+                    <p>Patient records, appointments, lab reports, billing & admin dashboard.</p>
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>Laravel</span>
+                        <span>MySQL</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#"><i class="fab fa-github"></i> Code</a>
+                        <a href="#"><i class="fas fa-eye"></i> Live Demo</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+
+    <!-- Experience Section -->
+<section id="experience" class="section experience-section">
+    <div class="container">
+        <h2 class="section-title">Work <span class="highlight">Experience</span></h2>
+        <p class="section-subtitle">Industrial training, internship & academic experience</p>
+
+        <div class="experience-timeline">
+
+            <!-- Industrial Training (MAIN HIGHLIGHT) -->
+            <div class="experience-item">
+                <div class="experience-header">
+                    <div class="experience-title">
+                        <h3>Industrial Training – Biomedical & IT Systems</h3>
+                        <p class="company">Hospital / Medical Equipment Company</p>
+                    </div>
+                    <span class="experience-date">2024 (Industrial Training)</span>
+                </div>
+                <div class="experience-content">
+                    <p>
+                        Completed industrial training focused on biomedical equipment,
+                        hospital information systems, and healthcare software workflows.
+                    </p>
+                    <ul>
+                        <li>Observed biomedical equipment installation and maintenance procedures</li>
+                        <li>Worked with hospital IT teams on laboratory and patient data systems</li>
+                        <li>Understood medical device calibration, safety standards, and documentation</li>
+                    </ul>
+                    <div class="tech-used">
+                        <span>Biomedical Devices</span>
+                        <span>Hospital IT Systems</span>
+                        <span>Documentation</span>
+                        <span>Quality & Safety</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Internship Project -->
+            <div class="experience-item">
+                <div class="experience-header">
+                    <div class="experience-title">
+                        <h3>Software Development Intern (Healthcare Systems)</h3>
+                        <p class="company">Healthcare IT Solutions</p>
+                    </div>
+                    <span class="experience-date">2023 - 2024</span>
+                </div>
+                <div class="experience-content">
+                    <p>
+                        Contributed to the development of hospital and laboratory
+                        management web applications under industry mentorship.
+                    </p>
+                    <ul>
+                        <li>Developed patient registration and appointment modules</li>
+                        <li>Implemented laboratory report management features</li>
+                        <li>Assisted in system testing, debugging, and deployment</li>
+                    </ul>
+                    <div class="tech-used">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>PHP</span>
+                        <span>MySQL</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Medical Instrument System -->
+            <div class="experience-item">
+                <div class="experience-header">
+                    <div class="experience-title">
+                        <h3>Medical Instrument Management System Developer</h3>
+                        <p class="company">Biomedical Engineering Lab</p>
+                    </div>
+                    <span class="experience-date">2022 - 2023</span>
+                </div>
+                <div class="experience-content">
+                    <p>
+                        Designed a web-based system to manage biomedical instruments,
+                        maintenance schedules, and compliance records.
+                    </p>
+                    <ul>
+                        <li>Managed equipment inventory and usage history</li>
+                        <li>Created maintenance and calibration scheduling features</li>
+                        <li>Generated audit and compliance reports</li>
+                    </ul>
+                    <div class="tech-used">
+                        <span>JavaScript</span>
+                        <span>PHP</span>
+                        <span>MySQL</span>
+                        <span>Bootstrap</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Academic & Mini Projects -->
+            <div class="experience-item">
+                <div class="experience-header">
+                    <div class="experience-title">
+                        <h3>Academic & Mini Projects – Biomedical Systems</h3>
+                        <p class="company">University / College</p>
+                    </div>
+                    <span class="experience-date">2020 - 2022</span>
+                </div>
+                <div class="experience-content">
+                    <p>
+                        Completed academic and mini projects focused on biomedical,
+                        hospital, and healthcare-related applications.
+                    </p>
+                    <ul>
+                        <li>Biomedical laboratory website development</li>
+                        <li>Hospital management system prototype</li>
+                        <li>Medical instrument tracking application</li>
+                    </ul>
+                    <div class="tech-used">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>MySQL</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <h2 class="section-title">Get In <span class="highlight">Touch</span></h2>
+            <p class="section-subtitle">Let's work together</p>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h3>Location</h3>
+                            <p>Kinniya Trincomalee Sri lanka</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h3>Email</h3>
+                            <p>ilhammohamed656@gmail.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>+94 755636656</p>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-dribbble"></i></a>
+                    </div>
+                </div>
+                
+                <div class="contact-form-container">
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="#" class="logo">ilham<span>mohamed</span></a>
+                    <p>Biomedical Technologist</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-services">
+                    <h3>Services</h3>
+                    <ul>
+                        <li>Web Development</li>
+                        <li>Mobile Apps</li>
+                        <li>UI/UX Design</li>
+                        <li>Consulting</li>
+                         <li>Biomedical / Hospital Systems</li>
+
+                    </ul>
+                </div>
+                
+                <div class="footer-newsletter">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe for updates and tech insights</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Enter your email">
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 ilham mohamed. All rights reserved.</p>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-codepen"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
